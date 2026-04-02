@@ -1,0 +1,56 @@
+{
+  "name": "app-generator",
+  "version": "1.0.1",
+  "description": "AI-powered desktop app builder — chat to create Electron apps, preview live, distribute instantly",
+  "author": {
+    "name": "App Generator",
+    "email": "hello@appgenerator.dev"
+  },
+  "homepage": "https://github.com/adventure-gpt/app-generator",
+  "repository": "https://github.com/adventure-gpt/app-generator",
+  "main": "src/main/index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "build:mac": "electron-builder --mac",
+    "build:linux": "electron-builder --linux",
+    "build:win": "electron-builder --win"
+  },
+<<<<<<< HEAD
+  "build": {
+    "productName": "App Generator",
+    "artifactName": "App-Generator-Setup.${ext}",
+    "appId": "com.appgenerator.app",
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "adventure-gpt",
+        "repo": "app-generator"
+      }
+    ],
+    "extraResources": [
+      {
+        "from": "templates",
+        "to": "templates",
+        "filter": [
+          "AGENTS.md",
+          "CLAUDE.md"
+        ]
+      }
+    ]
+  },
+=======
+>>>>>>> 1f67820aaf493541534219cfc99864f1ba893ffa
+  "devDependencies": {
+    "electron": "^35.0.0",
+    "electron-builder": "^26.0.0"
+  },
+  "dependencies": {
+    "electron-log": "^5.4.3",
+    "electron-updater": "^6.8.3"
+  }
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> 1f67820aaf493541534219cfc99864f1ba893ffa
